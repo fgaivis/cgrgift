@@ -177,41 +177,9 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
-                                    <h2>
-                                        CONTACT US
-                                    </h2>
-                                    <form action="http://poolsandplay.com/thank-you.php" method="post">
-                                        <p>
-                                            <label>
-                                                Name
-                                            </label>
-                                            <input id="name" name="name" class="form-control" required type="text" />
-                                        </p>
-                                        <p>
-                                            <label>
-                                                Email Address
-                                            </label>
-                                            <input id="email" name="email" class="form-control" required type="email" />
-                                        </p>
-                                        <p>
-                                            <label>
-                                                Phone Number
-                                            </label>
-                                            <input id="phone" name="phone" class="form-control" type="tel" />
-                                        </p>
-                                        <p>
-                                            <label>
-                                                Message
-                                            </label>
-                                            <textarea id="message" name="message" class="form-control" required rows="5">
-                                            </textarea>
-                                        </p>
-                                        <p>
-                                            <button class="btn btn-success btn-lg" type="submit" style="background-color:#093; color:#FFF">
-                                                Send
-                                            </button>
-                                        </p>
-                                    </form>
+                                    <button type="button" onClick="window.plugins.socialsharing.shareViaEmail('Please enter your information:<br><br>Name:<br><br>Phone:<br><br>Message:','You have a new contact message from your mobile App',['gabriel.ortiz@me.com','niury.ortiz@me.com','oms@cgrcreative.com']);" class="btn btn-default" style="background-color:#093; color:#FFF">
+										Mail Us
+									</button>
                                 </div>
                             </div>
                         </div>
